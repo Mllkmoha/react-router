@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #0f0f12;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(139, 92, 246, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(20, 184, 166, 0.08), transparent 40%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-gray-100: #f4f3f1;
+  --color-gray-200: #dddbd8;
+  --color-gray-300: #ccc9c6;
+  --color-gray-400: #aeaba7;
+  --color-gray-500: #8a8784;
+  --color-gray-600: #656360;
+  --color-gray-700: #4b4a47;
+  --color-gray-800: #31302e;
+  --color-gray-900: #1f1d1b;
+
+  --color-primary-100: #f3ecfd;
+  --color-primary-200: #e4d3fb;
+  --color-primary-300: #cba8f7;
+  --color-primary-400: #ad7ef2;
+  --color-primary-500: #8b5cf6;
+  --color-primary-600: #7c4deb;
+  --color-primary-700: #6c3fd9;
+  --color-primary-800: #5a32b8;
+  --color-primary-900: #472795;
+
+  --color-accent-teal: #14b8a6;
+  --gradient-primary: linear-gradient(135deg, #8b5cf6, #14b8a6);
+
+  --glass-bg: rgba(255, 255, 255, 0.04);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-blur: blur(20px);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
